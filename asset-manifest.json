@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/react-multi-step-form/static/css/main.9d5b29c0.chunk.css",
+    "main.js": "/react-multi-step-form/static/js/main.b3d0df08.chunk.js",
+    "main.js.map": "/react-multi-step-form/static/js/main.b3d0df08.chunk.js.map",
+    "runtime-main.js": "/react-multi-step-form/static/js/runtime-main.74bb62ea.js",
+    "runtime-main.js.map": "/react-multi-step-form/static/js/runtime-main.74bb62ea.js.map",
+    "static/js/2.d11308c2.chunk.js": "/react-multi-step-form/static/js/2.d11308c2.chunk.js",
+    "static/js/2.d11308c2.chunk.js.map": "/react-multi-step-form/static/js/2.d11308c2.chunk.js.map",
+    "static/js/3.dd7fb252.chunk.js": "/react-multi-step-form/static/js/3.dd7fb252.chunk.js",
+    "static/js/3.dd7fb252.chunk.js.map": "/react-multi-step-form/static/js/3.dd7fb252.chunk.js.map",
+    "index.html": "/react-multi-step-form/index.html",
+    "static/css/main.9d5b29c0.chunk.css.map": "/react-multi-step-form/static/css/main.9d5b29c0.chunk.css.map",
+    "static/js/2.d11308c2.chunk.js.LICENSE.txt": "/react-multi-step-form/static/js/2.d11308c2.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/react-multi-step-form/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.74bb62ea.js",
+    "static/js/2.d11308c2.chunk.js",
+    "static/css/main.9d5b29c0.chunk.css",
+    "static/js/main.b3d0df08.chunk.js"
+  ]
+}
