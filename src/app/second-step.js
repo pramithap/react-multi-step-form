@@ -4,17 +4,16 @@ const StepTwo = props =>{
   const { values, onChange, next, back} = props
   return(
       <>
-        <label name="wcolour" >Widget Colour
-          <input type="text" name="wcolour" value={values.wcolour} onChange={onChange('wcolour')}/>
-        </label >
+        <label name="wcolour" >Widget Colour</label >
+        <input type="text" name="wcolour" value={values.wcolour} onChange={onChange('wcolour')}/>   
         <br />
         <br />
-        <label name="wsize">Widget Size
+        <label name="wsize">Widget Size  &nbsp; </label >
         <input type="text" name="wsize" value={values.wsize} onChange={onChange('wsize')}/>
-        </label ><br />
-      
-      <button onClick={back}>back</button> 
-      <button onClick={next}>Next</button>
+        <br></br>
+        <br></br>
+        <button className="back" onClick={back}>back</button> 
+        <button className="next" onClick={next}>Next</button>
     </>
   )
 }

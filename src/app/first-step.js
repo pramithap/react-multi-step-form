@@ -1,19 +1,18 @@
 import React from "react"
 
 const StepOne = props =>{
-  const { values, onChange, next} = props
+  const { values, onChange, next} = props;
   return(
       <>
-        <label name="firstName" >First Name
+        <label name="firstName" >First Name </label >
           <input type="text" name="firstName" value={values.firstName} onChange={onChange('firstName')}/>
-        </label >
         <br />
         <br />
-        <label name="lastName">Last Name
+        <label name="lastName">Last Name </label >
         <input type="text" name="lastName" value={values.lastName} onChange={onChange('lastName')}/>
-        </label ><br />
-      
-      <button onClick={next}>Next</button>
+        <br></br>
+        <br></br>
+        <button className="next" onClick={next}>Next</button>
     </>
   )
 }
