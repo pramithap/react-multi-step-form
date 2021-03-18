@@ -1,7 +1,7 @@
 import React from 'react';
 import "../index.css"
 
-const StepCounter = props => {
+export default function StepCounter(props) {
 
   const {step} = props;
 
@@ -24,5 +24,3 @@ const StepCounter = props => {
   );
 
 };
-
-export default StepCounter;

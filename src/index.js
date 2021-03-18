@@ -1,9 +1,5 @@
 import React from "react";
 import ReactDOM from 'react-dom';
-import App from "./app/mainForm.js"
+import MainForm from "./components/mainForm.js"
 
-ReactDOM.render(
-    <App />,
-    document.getElementById('root')
-);
-
+ReactDOM.render(<MainForm />,document.getElementById('root'));

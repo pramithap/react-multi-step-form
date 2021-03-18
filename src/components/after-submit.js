@@ -1,7 +1,7 @@
 import React from "react"
 
-const SubmittedForm = props =>{
-  const {success, reset} = props
+export default function SubmittedForm(props) {
+  const {success, reset} = props;
   return(
       <>
         <label name="success" >{success ? 'Success!!!' : 'Error!'} </label>
@@ -10,5 +10,4 @@ const SubmittedForm = props =>{
         </div>
     </>
   )
-}
-export default SubmittedForm;
+};
