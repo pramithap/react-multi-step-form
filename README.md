@@ -1,10 +1,8 @@
 
 # A Multi-step form using React
 
-## Quick Start
-
-## Clone the repo locally
-## git clone https://github.com/pramithap/react-multi-step-form.git  
+### Clone the repo locally
+git clone https://github.com/pramithap/react-multi-step-form.git  
 
 ```bash
 
