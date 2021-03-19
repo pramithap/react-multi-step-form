@@ -19,13 +19,20 @@ const initialState = {
 
 export default function MainForm () {
   
-  const [state, setValueState] = useState(initialState); // store initial state values of form variables
+   // store initial state values of form variables
+  const [state, setValueState] = useState(initialState); 
   
-  const [stepNumber, setStepNumber] = useState(1); //manages the step number in the multi-step form
-  const [success, setSuccess] = useState(false); //set the success state after submit
+  //manages the step number in the multi-step form
+  const [stepNumber, setStepNumber] = useState(1); 
+
+  //set the success state after submit
+  const [success, setSuccess] = useState(false); 
   
-  const next = () => setStepNumber(stepNumber => stepNumber + 1); //increase the step counter when going to the next page
-  const back = () => setStepNumber(stepNumber => stepNumber - 1); //decrease the step counter when going back to the previous page
+  //increase the step counter when going to the next page
+  const next = () => setStepNumber(stepNumber => stepNumber + 1);
+
+  //decrease the step counter when going back to the previous page
+  const back = () => setStepNumber(stepNumber => stepNumber - 1); 
 
   //reset the initial state
   const reset = () => {
