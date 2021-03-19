@@ -1,17 +1,18 @@
 
-A Multi-step form using React
+# A Multi-step form using React
 
+## Quick Start
 
-//Clone the repo locally
-git clone https://github.com/pramithap/react-multi-step-form.git   
+## Clone the repo locally
+## git clone https://github.com/pramithap/react-multi-step-form.git  
 
-//then navigate to the folder
-cd react-multi-step-form   
+```bash
 
-//next install dependancies using npm
+# Install dependencies
 npm install
 
-//to start the application in browser
+# Serve on localhost:3000
 npm start
 
-This will open the applcation in your browser
+# Build for production
+npm run build
